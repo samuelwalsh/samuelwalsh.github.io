@@ -24,7 +24,6 @@ h1 {
   font-weight: 700;
   color: #c0392b;
   margin-bottom: 30px;
-  text-align: left;
 }
 img {
   max-width: 100%;
@@ -56,6 +55,9 @@ li {
   padding-left: 2em;
   padding-right: 2em;
   text-align: justify;
+}
+.section-container h1 {
+  text-align: left;
 }
 #top, #bottom {
   background: rgb(91, 108, 124);
