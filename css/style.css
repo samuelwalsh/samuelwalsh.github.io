@@ -125,13 +125,12 @@ table#schedule .date {
     width:20%;
 }
 table#schedule .location {
-    width: 15%;
+    width: 5%;
     text-align:left;
     padding-right: 10px;
 }
 table#schedule .title {
     text-align:left;
-    width:35%;
 }
 table#schedule tr:nth-child(even) {
     background: #efefef;
