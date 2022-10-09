@@ -113,6 +113,7 @@ table#schedule thead th {
 }
 table#schedule th, td {
     padding: 5px;
+    vertical-align: top;
 }
 table#schedule .speaker {
     text-align:left;
@@ -137,7 +138,6 @@ table#schedule tr:nth-child(even) {
 }
 span.abstract {
     font-variant: small-caps;
-    padding-left:10px;
     font-size:14px;
 }
 @media (max-width: 800px) {
@@ -173,3 +173,25 @@ span.abstract {
     text-align: left;
   }
 }
+
+
+.accordion {
+  background-color: inherit;
+  cursor: pointer;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  background-color: inherit;
+  display: none;
+  overflow: hidden;
+  line-height: 1.5;
+  
+}
+
+
