@@ -182,6 +182,8 @@ span.abstract {
   border: none;
   outline: none;
   transition: 0.4s;
+  color: #000088;
+  text-decoration: none;
 }
 
 
@@ -190,8 +192,7 @@ span.abstract {
   background-color: inherit;
   display: none;
   overflow: hidden;
-  line-height: 1.5;
-  
+  line-height: 1.5;  
 }
 
 
