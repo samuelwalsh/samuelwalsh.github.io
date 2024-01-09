@@ -1,0 +1,321 @@
+/*********
+ style.css
+ *********/
+
+/*
+ * Sitewide Definitions
+ */
+
+body {
+    margin: 0px;
+    color: #333333;
+    font-family: "Lato";
+    font-size: 16px;
+}
+
+/* Link */
+a, a:visited {
+    color: #8F0000;
+    text-decoration: none;
+}
+
+/* Link hover */
+a:active, a:hover {
+    color: rgb(241, 184, 45);
+    /*color: #0000ee;*/
+    text-decoration: none;
+}
+
+/* Headings */
+h2 {
+    letter-spacing: 2px;
+    color: #666666;
+    font-weight: 700;
+}
+
+p.intro {
+    margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+p.heading {
+    letter-spacing: 2px;
+    font-size: 16px;
+    color: #666666;
+    font-weight: 700;
+    margin-bottom: 5px;
+    border-width: 0px 0px 1px 0px;
+    border-style: dotted;
+    margin-top: 25px;
+}
+
+span.sc {
+    font-variant: small-caps;
+}
+
+/*
+ * Header
+ */
+
+div#header {
+    width: 100%;
+    /*height: 100px;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #333333;
+    overflow: hidden;
+}
+
+/* no longer in use
+ div#mulogo {
+    width: auto;
+    height: auto;
+    float: left;
+    padding-left: 20px;
+}
+
+img#mulogo {
+    height: 80px;
+}
+
+div#mumath {
+    width: 250px;
+    height: auto;
+    padding-left: 10px;
+    float: left;
+    font-family: "serif";
+}
+
+div#mathtitle {
+    font-size: 44px;
+}
+
+div#mutitle {
+    font-size: 24px;
+}
+*/
+
+/* container for title and dates */
+div#title {
+    width: 100%
+    height: auto;
+    float: left;
+    text-align: left;
+    padding-left: 10px;
+}
+
+/* KUMU title font */
+div#kumutitle {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* dates font */
+div#kumudates {
+    margin-top: 5px;
+    font-size: 26px;
+    font-weight: 300;
+    font-style: normal;
+    
+}
+
+
+/*
+ * Menu
+ */
+
+/* menu container */
+div#menu {
+    width: 100%;
+    /* height: 30px; */
+    overflow: hidden;
+}
+
+/* individual menu option */
+div.menutab {
+    width: auto;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+    line-height: 30px;
+    float: left;
+    font-size: 18px;
+    color: #333333;
+}
+
+
+/*
+ * Front page banner
+ */
+
+/* banner container */
+div#banner {
+    width: 100%;
+    color: #333333;
+}
+
+/* banner image */
+img#banner {
+    width: 100%;
+}
+
+
+/*
+ * Content
+ */
+
+/* main content container */
+div#maincontainer {
+    width: 100%;
+    height: auto;
+    min-height: 390px;
+    color: #333333;
+}
+
+/* content spacing within container */
+div.content {
+/*    padding-left: 15px;
+    padding-right: 15px;*/
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+
+/*
+ * Footer
+ */
+
+/* footer container */
+div#footer {
+    width: 100%;
+    height: auto;
+    color: #333333;
+    align: top;
+    text-align:right;
+}
+
+/* footer logo */
+img.logos {
+    height: 80px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+img#ku-logo {
+    height: 85px;
+}
+
+img#mu-logo {
+    height: 73px;
+    padding-bottom: 4px;
+}
+
+img#nu-logo {
+    height: 86px;
+    padding-right: 10px;
+}
+
+img#nsf-logo {
+    height: 80px;
+    padding-bottom: 5px;
+}
+
+
+/*
+ * Registration Form
+ */
+
+/* no longer used
+div#formcontainer {
+    min-height: 400px;
+}
+
+div.formline {
+    width: 100%;
+    height: 30px;
+}
+
+div.labels {
+    width: 130px;
+    float: left;
+    text-align: right;
+    padding-right: 20px;
+}
+
+div.forminput {
+    float:left;
+    width: 100%;
+    text-align: left;
+    width: 60%;
+}
+
+input.textinput {
+    width: 170px;
+}
+*/
+
+
+/*
+ * Schedule
+ */
+
+/* schedule table */
+table#schedule {
+    width: 80%;
+    border: 0px;
+    padding: 0px;
+    border-spacing: 0px;
+    font-size: 16px;
+}
+
+/* table headings */
+table#schedule thead th {
+    background: #888888;
+    color: #ffffff;
+}
+
+/* table padding */
+table#schedule th, td {
+    padding: 5px;
+}
+
+/* event column */
+table#schedule .event {
+    text-align:left;
+    padding-left: 60px;
+    width: 51%;
+}
+
+/* time columns */
+table#schedule .time {
+    text-align:right;
+    padding-right: 10px;
+    width:12%;
+}
+
+/* location column */
+table#schedule .loc {
+    width: 25%;
+    text-align:left;
+}
+
+/* font style for time columns (but not headings) */
+table#schedule td.time {
+    font-variant: small-caps;
+}
+
+/* alternate row color */
+table#schedule tr:nth-child(even) {
+    background: #efefef;
+}
+
+/* abstract style */
+span.abstract {
+    font-variant: small-caps;
+    padding-left:20px;
+    font-size:15px;
+}
