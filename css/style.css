@@ -186,6 +186,10 @@ span.abstract {
   }
 }
 
+#past-students {
+  line-height: 0.5em;
+  margin-left: 1.5em;
+}
 
 .accordion {
   background-color: inherit;
